@@ -1,0 +1,177 @@
+city,attribute,recommendation,missing_pct,unique_values,note
+Madrid,listing_id,exclude,0.0,17770,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,city,exclude,0.0,1,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,price_eur,exclude,0.0,296,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,log_price_eur,exclude,0.0,296,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,neighbourhood_cleansed,use,0.0,128,Usable city-specific predictor for first-pass models.
+Madrid,neighbourhood_group,use,0.0,21,Usable city-specific predictor for first-pass models.
+Madrid,latitude,use,0.0,12454,Usable city-specific predictor for first-pass models.
+Madrid,longitude,use,0.0,11999,Usable city-specific predictor for first-pass models.
+Madrid,distance_to_center_km,use,0.0,14095,Usable city-specific predictor for first-pass models.
+Madrid,is_central_5km,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,neighbourhood_listing_count,use,0.0,97,Usable city-specific predictor for first-pass models.
+Madrid,property_type,use,0.0,60,Usable city-specific predictor for first-pass models.
+Madrid,property_group,use,0.0,6,Usable city-specific predictor for first-pass models.
+Madrid,room_type,use,0.0,4,Usable city-specific predictor for first-pass models.
+Madrid,accommodates,use,0.0,16,Usable city-specific predictor for first-pass models.
+Madrid,bedrooms,use,0.169,13,Usable city-specific predictor for first-pass models.
+Madrid,beds,use,0.073,20,Usable city-specific predictor for first-pass models.
+Madrid,bathrooms,use,0.118,18,Usable city-specific predictor for first-pass models.
+Madrid,bathroom_type,use,0.0,5,Usable city-specific predictor for first-pass models.
+Madrid,amenities_count,use,0.0,80,Usable city-specific predictor for first-pass models.
+Madrid,has_wifi,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_kitchen,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_air_conditioning,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_washer,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_dedicated_workspace,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_tv,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_parking,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_elevator,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_heating,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,has_self_checkin,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,last_scraped,exclude,0.0,2,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,host_since,exclude,0.495,3482,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,host_response_time,use,5.492,4,Usable city-specific predictor for first-pass models.
+Madrid,host_response_rate,use,5.492,88,Usable city-specific predictor for first-pass models.
+Madrid,host_acceptance_rate,use,3.118,100,Usable city-specific predictor for first-pass models.
+Madrid,host_is_superhost,use,2.898,2,Usable city-specific predictor for first-pass models.
+Madrid,host_listings_count,use,0.495,114,Usable city-specific predictor for first-pass models.
+Madrid,host_total_listings_count,use,0.495,139,Usable city-specific predictor for first-pass models.
+Madrid,host_has_profile_pic,use,0.495,2,Usable city-specific predictor for first-pass models.
+Madrid,host_identity_verified,use,0.495,2,Usable city-specific predictor for first-pass models.
+Madrid,minimum_nights,use,0.0,70,Usable city-specific predictor for first-pass models.
+Madrid,maximum_nights,use,0.0,169,Usable city-specific predictor for first-pass models.
+Madrid,has_availability,exclude,0.574,1,No predictive variation within this city.
+Madrid,availability_30,use,0.0,31,Usable city-specific predictor for first-pass models.
+Madrid,availability_60,use,0.0,61,Usable city-specific predictor for first-pass models.
+Madrid,availability_90,use,0.0,91,Usable city-specific predictor for first-pass models.
+Madrid,availability_365,use,0.0,366,Usable city-specific predictor for first-pass models.
+Madrid,number_of_reviews,use,0.0,622,Usable city-specific predictor for first-pass models.
+Madrid,number_of_reviews_ltm,use,0.0,168,Usable city-specific predictor for first-pass models.
+Madrid,number_of_reviews_l30d,use,0.0,29,Usable city-specific predictor for first-pass models.
+Madrid,number_of_reviews_ly,use,0.0,163,Usable city-specific predictor for first-pass models.
+Madrid,first_review,exclude,15.898,3154,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,last_review,exclude,15.898,1029,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,review_scores_rating,use,15.898,165,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_accuracy,use,15.898,154,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_cleanliness,use,15.903,157,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_checkin,use,15.903,146,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_communication,use,15.898,144,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_location,use,15.898,157,Usable city-specific predictor for first-pass models.
+Madrid,review_scores_value,use,15.898,172,Usable city-specific predictor for first-pass models.
+Madrid,instant_bookable,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,calculated_host_listings_count,use,0.0,74,Usable city-specific predictor for first-pass models.
+Madrid,calculated_host_listings_count_entire_homes,use,0.0,67,Usable city-specific predictor for first-pass models.
+Madrid,calculated_host_listings_count_private_rooms,use,0.0,34,Usable city-specific predictor for first-pass models.
+Madrid,calculated_host_listings_count_shared_rooms,use,0.0,10,Usable city-specific predictor for first-pass models.
+Madrid,reviews_per_month,use,15.898,977,Usable city-specific predictor for first-pass models.
+Madrid,host_tenure_days,use,0.495,3650,Usable city-specific predictor for first-pass models.
+Madrid,days_since_last_review,use,15.898,1034,Usable city-specific predictor for first-pass models.
+Madrid,review_history_days,use,15.898,3281,Usable city-specific predictor for first-pass models.
+Madrid,has_reviews,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,minimum_nights_capped,use,0.0,28,Usable city-specific predictor for first-pass models.
+Madrid,is_professional_host,use,0.0,2,Usable city-specific predictor for first-pass models.
+Madrid,calendar_days,exclude,0.0,2,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Madrid,calendar_available_days,use,0.0,366,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_days,use,0.0,366,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_rate,use,0.0,373,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_q1,use,0.0,91,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_q2,use,0.0,92,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_q3,use,0.0,99,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_q4,use,0.0,93,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_autumn,use,0.0,98,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_spring,use,0.0,93,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_summer,use,0.0,93,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_winter,use,0.0,91,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_weekday,use,0.0,521,Usable city-specific predictor for first-pass models.
+Madrid,calendar_unavailable_weekend,use,0.0,209,Usable city-specific predictor for first-pass models.
+Madrid,raw_review_total_reviews,use,15.898,621,Usable city-specific predictor for first-pass models.
+Madrid,raw_reviews_last_6m,use,15.898,103,Usable city-specific predictor for first-pass models.
+Tokyo,listing_id,exclude,0.0,23765,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,city,exclude,0.0,1,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,price_eur,exclude,0.0,9866,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,log_price_eur,exclude,0.0,9866,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,neighbourhood_cleansed,use,0.0,49,Usable city-specific predictor for first-pass models.
+Tokyo,neighbourhood_group,exclude,100.0,0,Too sparse for first-pass modelling; revisit only if city-specific handling is needed.
+Tokyo,latitude,use,0.0,17394,Usable city-specific predictor for first-pass models.
+Tokyo,longitude,use,0.0,18438,Usable city-specific predictor for first-pass models.
+Tokyo,distance_to_center_km,use,0.0,19175,Usable city-specific predictor for first-pass models.
+Tokyo,is_central_5km,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,neighbourhood_listing_count,use,0.0,44,Usable city-specific predictor for first-pass models.
+Tokyo,property_type,use,0.0,61,Usable city-specific predictor for first-pass models.
+Tokyo,property_group,use,0.0,6,Usable city-specific predictor for first-pass models.
+Tokyo,room_type,use,0.0,4,Usable city-specific predictor for first-pass models.
+Tokyo,accommodates,use,0.0,16,Usable city-specific predictor for first-pass models.
+Tokyo,bedrooms,use,0.034,15,Usable city-specific predictor for first-pass models.
+Tokyo,beds,use,0.017,28,Usable city-specific predictor for first-pass models.
+Tokyo,bathrooms,use,0.143,20,Usable city-specific predictor for first-pass models.
+Tokyo,bathroom_type,use,0.0,5,Usable city-specific predictor for first-pass models.
+Tokyo,amenities_count,use,0.0,78,Usable city-specific predictor for first-pass models.
+Tokyo,has_wifi,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_kitchen,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_air_conditioning,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_washer,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_dedicated_workspace,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_tv,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_parking,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_elevator,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_heating,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,has_self_checkin,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,last_scraped,exclude,0.0,2,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,host_since,exclude,0.021,2623,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,host_response_time,use,1.41,4,Usable city-specific predictor for first-pass models.
+Tokyo,host_response_rate,use,1.41,33,Usable city-specific predictor for first-pass models.
+Tokyo,host_acceptance_rate,use,0.686,69,Usable city-specific predictor for first-pass models.
+Tokyo,host_is_superhost,use,7.195,2,Usable city-specific predictor for first-pass models.
+Tokyo,host_listings_count,use,0.021,109,Usable city-specific predictor for first-pass models.
+Tokyo,host_total_listings_count,use,0.021,136,Usable city-specific predictor for first-pass models.
+Tokyo,host_has_profile_pic,use,0.021,2,Usable city-specific predictor for first-pass models.
+Tokyo,host_identity_verified,use,0.021,2,Usable city-specific predictor for first-pass models.
+Tokyo,minimum_nights,use,0.0,31,Usable city-specific predictor for first-pass models.
+Tokyo,maximum_nights,use,0.0,114,Usable city-specific predictor for first-pass models.
+Tokyo,has_availability,exclude,0.029,1,No predictive variation within this city.
+Tokyo,availability_30,use,0.0,31,Usable city-specific predictor for first-pass models.
+Tokyo,availability_60,use,0.0,61,Usable city-specific predictor for first-pass models.
+Tokyo,availability_90,use,0.0,91,Usable city-specific predictor for first-pass models.
+Tokyo,availability_365,use,0.0,366,Usable city-specific predictor for first-pass models.
+Tokyo,number_of_reviews,use,0.0,440,Usable city-specific predictor for first-pass models.
+Tokyo,number_of_reviews_ltm,use,0.0,166,Usable city-specific predictor for first-pass models.
+Tokyo,number_of_reviews_l30d,use,0.0,28,Usable city-specific predictor for first-pass models.
+Tokyo,number_of_reviews_ly,use,0.0,153,Usable city-specific predictor for first-pass models.
+Tokyo,first_review,exclude,13.057,2969,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,last_review,exclude,13.057,705,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,review_scores_rating,use,13.057,150,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_accuracy,use,13.061,131,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_cleanliness,use,13.061,170,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_checkin,use,13.061,128,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_communication,use,13.061,116,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_location,use,13.061,136,Usable city-specific predictor for first-pass models.
+Tokyo,review_scores_value,use,13.061,145,Usable city-specific predictor for first-pass models.
+Tokyo,instant_bookable,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,calculated_host_listings_count,use,0.0,82,Usable city-specific predictor for first-pass models.
+Tokyo,calculated_host_listings_count_entire_homes,use,0.0,78,Usable city-specific predictor for first-pass models.
+Tokyo,calculated_host_listings_count_private_rooms,use,0.0,27,Usable city-specific predictor for first-pass models.
+Tokyo,calculated_host_listings_count_shared_rooms,use,0.0,11,Usable city-specific predictor for first-pass models.
+Tokyo,reviews_per_month,use,13.057,760,Usable city-specific predictor for first-pass models.
+Tokyo,host_tenure_days,use,0.021,2817,Usable city-specific predictor for first-pass models.
+Tokyo,days_since_last_review,use,13.057,709,Usable city-specific predictor for first-pass models.
+Tokyo,review_history_days,use,13.057,3079,Usable city-specific predictor for first-pass models.
+Tokyo,has_reviews,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,minimum_nights_capped,use,0.0,22,Usable city-specific predictor for first-pass models.
+Tokyo,is_professional_host,use,0.0,2,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_days,exclude,0.0,2,"Identifier, target, raw date, constant city field, or non-informative calendar length."
+Tokyo,calendar_available_days,use,0.0,366,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_days,use,0.0,366,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_rate,use,0.0,377,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_q1,use,0.0,91,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_q2,use,0.0,92,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_q3,use,0.0,95,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_q4,use,0.0,93,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_autumn,use,0.0,103,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_spring,use,0.0,93,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_summer,use,0.0,93,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_winter,use,0.0,91,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_weekday,use,0.0,273,Usable city-specific predictor for first-pass models.
+Tokyo,calendar_unavailable_weekend,use,0.0,105,Usable city-specific predictor for first-pass models.
+Tokyo,raw_review_total_reviews,use,13.057,439,Usable city-specific predictor for first-pass models.
+Tokyo,raw_reviews_last_6m,use,13.057,107,Usable city-specific predictor for first-pass models.

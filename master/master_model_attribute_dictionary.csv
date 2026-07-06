@@ -1,0 +1,79 @@
+attribute,role,source,why_kept_or_note
+listing_id,identifier,Listings,Audit/join key only; do not use as a model predictor.
+city,context,Listings,Identifies the city; constant within each city-specific model but useful for audit.
+price_eur,target,Listings,Nightly listing price converted to EUR; target variable.
+log_price_eur,target_transform,Engineered,Log target option for skewed price distributions.
+neighbourhood_cleansed,categorical_feature,Listings/geodata,Captures local market/location effects.
+neighbourhood_group,categorical_feature,Listings/geodata,Broader location grouping where available.
+latitude,numeric_feature,Listings,Fine-grained location signal.
+longitude,numeric_feature,Listings,Fine-grained location signal.
+distance_to_center_km,numeric_feature,Engineered,Proxy for centrality and tourist/business access.
+is_central_5km,binary_feature,Engineered,Simple central-vs-noncentral location flag.
+neighbourhood_listing_count,numeric_feature,Engineered,Proxy for local Airbnb market density.
+property_type,categorical_feature,Listings,Captures property format and quality differences.
+property_group,categorical_feature,Engineered,Simplifies sparse property-type categories.
+room_type,categorical_feature,Listings,Major pricing driver: entire home/private/shared/hotel room.
+accommodates,numeric_feature,Listings,Strong capacity/size driver of price.
+bedrooms,numeric_feature,Listings,Property size signal.
+beds,numeric_feature,Listings,Property size signal.
+bathrooms,numeric_feature,Engineered from listings,Property size/comfort signal.
+bathroom_type,categorical_feature,Engineered from listings,Distinguishes private/shared bathroom setups.
+amenities_count,numeric_feature,Engineered from listings,Broad property-quality/value signal.
+has_wifi,binary_feature,Engineered from amenities,Amenity availability can affect guest willingness to pay.
+has_kitchen,binary_feature,Engineered from amenities,Important for longer stays and family/group bookings.
+has_air_conditioning,binary_feature,Engineered from amenities,"Comfort feature, especially relevant seasonally."
+has_washer,binary_feature,Engineered from amenities,Useful for longer stays.
+has_dedicated_workspace,binary_feature,Engineered from amenities,Business/remote-work value signal.
+has_tv,binary_feature,Engineered from amenities,Basic comfort amenity.
+has_parking,binary_feature,Engineered from amenities,Can affect value in car-dependent areas.
+has_elevator,binary_feature,Engineered from amenities,Accessibility/convenience signal.
+has_heating,binary_feature,Engineered from amenities,Basic comfort amenity.
+has_self_checkin,binary_feature,Engineered from amenities,Convenience/operations signal.
+host_response_time,categorical_feature,Listings,Host service responsiveness signal.
+host_response_rate,numeric_feature,Listings,Host service responsiveness signal.
+host_acceptance_rate,numeric_feature,Listings,Host acceptance behaviour signal.
+host_is_superhost,binary_feature,Listings,Trust/quality signal.
+host_identity_verified,binary_feature,Listings,Trust signal.
+host_tenure_days,numeric_feature,Engineered from listings,Host experience signal.
+host_listings_count,numeric_feature,Listings,Professionalization/host scale signal.
+is_professional_host,binary_feature,Engineered from listings,Flags hosts with multiple listings.
+calculated_host_listings_count,numeric_feature,Listings,Host local portfolio size.
+calculated_host_listings_count_entire_homes,numeric_feature,Listings,Host portfolio composition.
+instant_bookable,binary_feature,Listings,Booking friction/convenience signal.
+minimum_nights,numeric_feature,Listings,Stay-rule signal.
+minimum_nights_capped,numeric_feature,Engineered,Robust stay-rule signal capped for extreme values.
+maximum_nights,numeric_feature,Listings,Stay-rule signal.
+availability_30,numeric_feature,Listings,Near-term availability signal.
+availability_60,numeric_feature,Listings,Short-term availability signal.
+availability_90,numeric_feature,Listings,Medium-term availability signal.
+availability_365,numeric_feature,Listings,Annual availability signal.
+calendar_available_days,numeric_feature,Calendar,Availability count from daily calendar.
+calendar_unavailable_days,numeric_feature,Calendar,Unavailable days; demand/host-usage proxy.
+calendar_unavailable_rate,numeric_feature,Calendar,Corrected listing-level availability/booking proxy.
+calendar_unavailable_weekday,numeric_feature,Calendar,Weekday availability/booking pattern.
+calendar_unavailable_weekend,numeric_feature,Calendar,Weekend availability/booking pattern.
+calendar_unavailable_q1,numeric_feature,Calendar,Quarterly seasonality proxy.
+calendar_unavailable_q2,numeric_feature,Calendar,Quarterly seasonality proxy.
+calendar_unavailable_q3,numeric_feature,Calendar,Quarterly seasonality proxy.
+calendar_unavailable_q4,numeric_feature,Calendar,Quarterly seasonality proxy.
+calendar_unavailable_winter,numeric_feature,Calendar,Seasonality proxy.
+calendar_unavailable_spring,numeric_feature,Calendar,Seasonality proxy.
+calendar_unavailable_summer,numeric_feature,Calendar,Seasonality proxy.
+calendar_unavailable_autumn,numeric_feature,Calendar,Seasonality proxy.
+number_of_reviews,numeric_feature,Listings,Review volume/reputation signal.
+number_of_reviews_ltm,numeric_feature,Listings,Recent annual review activity.
+number_of_reviews_l30d,numeric_feature,Listings,Very recent activity signal.
+number_of_reviews_ly,numeric_feature,Listings,Prior-year review activity where available.
+reviews_per_month,numeric_feature,Listings,Normalized review velocity.
+has_reviews,binary_feature,Engineered from listings,Distinguishes unrated/new listings.
+days_since_last_review,numeric_feature,Engineered from listings,Review recency signal.
+review_history_days,numeric_feature,Engineered from listings,Listing review-history maturity.
+review_scores_rating,numeric_feature,Listings,Overall quality/reputation signal.
+review_scores_accuracy,numeric_feature,Listings,Sub-rating quality signal.
+review_scores_cleanliness,numeric_feature,Listings,Sub-rating quality signal.
+review_scores_checkin,numeric_feature,Listings,Sub-rating service signal.
+review_scores_communication,numeric_feature,Listings,Sub-rating host-service signal.
+review_scores_location,numeric_feature,Listings,Guest perception of location.
+review_scores_value,numeric_feature,Listings,Guest perception of price/value.
+raw_review_total_reviews,numeric_feature_optional,Reviews,"Raw review-table count, used only when keys match."
+raw_reviews_last_6m,numeric_feature_optional,Reviews,"Raw review momentum, used only when keys match."
