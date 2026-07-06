@@ -1,0 +1,130 @@
+relative_path,size_mb
+1. Data\Outputs\chatbot\calendar_snapshot.sqlite,7.426
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_apartment_condo_lightgbm_tuned.joblib,6.078
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_apartment_condo_lightgbm_tuned.joblib,6.069
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_house_villa_lightgbm_tuned.joblib,5.989
+0. General Documents\KPGMG_IE Capstone 2026 Use Case.pdf,5.47
+1. Data\raw\tokyo_reviews.csv,3.873
+1. Data\raw\madrid_reviews_2025-09-14.csv,3.29
+1. Data\Outputs\ml_models\best_model_predictions.csv,2.958
+1. Data\Outputs\ml_models\expanded_city_model_predictions.csv,2.853
+1. Data\raw\madrid_reviews.csv,2.806
+4. Agent\Version 3.0\assets\lilly_favicon_source.png,2.097
+4. Agent\Version 3.0\assets\favicon_lilly_source.png,2.064
+1. Data\Outputs\ml_models\clustering\kmeans_listing_segments.csv,1.948
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_guesthouse_hostel_lightgbm_tuned.joblib,1.855
+1. Data\Outputs\chatbot\models\tokyo_xgboost_tuned.joblib,1.764
+1. Data\Outputs\chatbot\prediction_cache\monthly_price_prediction_cache.csv,1.763
+2. Code\Stage 1\2_EDA.ipynb,1.648
+1. Data\Outputs\chatbot\models\madrid_xgboost_tuned.joblib,1.641
+1. Data\raw\tokyo_calendar.csv,1.59
+2. Code\Stage 2\7_Madrid_Master_EDA.ipynb,1.557
+1. Data\raw\madrid_calendar.csv,1.481
+2. Code\Stage 2\8_Tokyo_Master_EDA.ipynb,1.452
+1. Data\raw\tokyo_listings.csv,1.388
+4. Agent\Version 3.0\assets\banner.png,1.298
+4. Agent\Version 3.0\assets\banner_logo.png,1.295
+1. Data\raw\madrid_listings.csv,1.179
+4. Agent\Version 3.0\assets\banner_logo_inner.png,1.163
+4. Agent\Version 3.0\assets\banner_logo_wide.png,1.137
+0. General Documents\Capstone_Intro_30Jan2026.pdf,0.855
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_house_villa_catboost_tuned.joblib,0.776
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_hotel_serviced_catboost_tuned.joblib,0.772
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_hotel_serviced_catboost_tuned.joblib,0.771
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_guesthouse_hostel_catboost_tuned.joblib,0.768
+1. Data\Outputs\ml_models\clustering\agglomerative_listing_segments.csv,0.754
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_hotel_serviced_prediction_features.csv,0.746
+2. Code\Stage 3\10_Tutor_Model_Summary.ipynb,0.714
+2. Code\12_Gaussian_Mixture_Clustering.ipynb,0.708
+1. Data\Outputs\ml_models\property_group_model_predictions.csv,0.681
+2. Code\13_Agglomerative_Clustering.ipynb,0.679
+2. Code\11_Clustering_Algorithms.ipynb,0.582
+1. Data\Outputs\ml_models\clustering\gmm_listing_segments.csv,0.406
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_house_villa_prediction_features.csv,0.374
+1. Data\master\airbnb_tokyo_clean.csv,0.351
+1. Data\master\airbnb_clean_final.csv,0.338
+2. Code\Stage 2\9_City_Specific_ML_Modelling.ipynb,0.328
+1. Data\master\airbnb_madrid_clean.csv,0.323
+1. Data\Outputs\ml_models\expanded_city_feature_importance.csv,0.297
+1. Data\master\tokyo_master_model_dataset.csv,0.274
+1. Data\master\madrid_master_model_dataset.csv,0.272
+1. Data\Outputs\chatbot\prediction_cache\listing_price_prediction_cache.csv,0.259
+1. Data\model_ready\tokyo_model_ready.csv,0.257
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_hotel_serviced_prediction_features.csv,0.256
+1. Data\Outputs\chatbot\models\tokyo_prediction_features.csv,0.253
+1. Data\Outputs\chatbot\models\madrid_prediction_features.csv,0.251
+1. Data\model_ready\madrid_model_ready.csv,0.251
+2. Code\14_Property_Group_ML_Modelling.ipynb,0.218
+4. Agent\Version 3.0\app.py,0.211
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_guesthouse_hostel_prediction_features.csv,0.197
+1. Data\Outputs\chatbot\models\property_groups\madrid_property_group_apartment_condo_prediction_features.csv,0.194
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_guesthouse_hostel_prediction_features.csv,0.164
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_apartment_condo_prediction_features.csv,0.163
+0. General Documents\SyllabusPDF.pdf,0.108
+2. Code\Stage 1\1_cleaning.ipynb,0.102
+0. General Documents\Proposed-Research-Capstones.pdf,0.091
+5. Report\Airbnb AIt.docx,0.08
+2. Code\Stage 2\5_Build_City_Master_Datasets.ipynb,0.065
+2. Code\Stage 2\6_Prepare_Model_Ready_Datasets.ipynb,0.059
+2. Code\Capstone Project - Airbnb.ipynb,0.052
+2. Code\Stage 0\Capstone Project - Airbnb.ipynb,0.048
+4. Agent\Version 3.0\assets\favicon_lilly.ico,0.044
+1. Data\Outputs\chatbot\models\property_groups\tokyo_property_group_house_villa_prediction_features.csv,0.044
+5. Report\Airbnb_Intelligent_Advisor.pptx,0.04
+4. Agent\Version 3.0\README.docx,0.038
+2. Code\Stage 2\4_City_Specific_EDA_and_Models.ipynb,0.037
+4. Agent\Version 3.0\assets\lilly_favicon.png,0.036
+2. Code\Stage 1\3_ML_Price_Prediction.ipynb,0.035
+4. Agent\Version 3.0\assets\favicon_lilly.png,0.026
+1. Data\Outputs\project_inventory\Airbnb_Capstone_Project_Inventory.xlsx,0.023
+2. Code\Stage 3\11_Tune_Remaining_City_Models.py,0.02
+4. Agent\Version 3.0\analytics.py,0.017
+4. Agent\Version 3.0\rag.py,0.016
+1. Data\model_ready\model_ready_feature_decisions.csv,0.016
+1. Data\master\recommended_model_features_by_city.csv,0.016
+4. Agent\Version 3.0\build_prediction_cache.py,0.013
+4. Agent\Version 3.0\train_property_group_price_models.py,0.012
+4. Agent\Version 3.0\calendar_service.py,0.011
+1. Data\Outputs\ml_models\additional_model_tuning_results.csv,0.009
+1. Data\model_ready\madrid_feature_decisions.csv,0.008
+1. Data\model_ready\tokyo_feature_decisions.csv,0.008
+1. Data\Outputs\ml_models\best_model_error_segments.csv,0.007
+4. Agent\Version 3.0\model_service.py,0.007
+4. Agent\Version 3.0\convert_readme_to_docx.py,0.007
+4. Agent\Version 3.0\prediction_cache_service.py,0.006
+1. Data\Outputs\ml_models\property_group_model_results.csv,0.006
+1. Data\master\master_model_attribute_dictionary.csv,0.006
+4. Agent\Version 3.0\llm_service.py,0.006
+4. Agent\Version 3.0\train_price_models.py,0.006
+1. Data\model_ready\model_ready_feature_dictionary.csv,0.005
+4. Agent\Version 3.0\api_service.py,0.005
+4. Agent\Version 3.0\data_loader.py,0.005
+4. Agent\Version 3.0\README.md,0.005
+1. Data\Outputs\chatbot\models\property_groups\property_group_price_model_manifest.csv,0.003
+1. Data\Outputs\ml_models\property_group_vs_city_benchmark.csv,0.002
+4. Agent\Version 3.0\run_chatbot.ps1,0.002
+1. Data\Outputs\ml_models\clustering\gmm_scores.csv,0.002
+1. Data\Outputs\ml_models\expanded_city_model_results.csv,0.002
+1. Data\Outputs\ml_models\clustering\agglomerative_scores.csv,0.001
+1. Data\Outputs\ml_models\property_group_best_models.csv,0.001
+1. Data\Outputs\ml_models\xgboost_tuning_results.csv,0.001
+README_GITHUB_SAMPLE.md,0.001
+1. Data\Outputs\ml_models\expanded_city_cv_results.csv,0.001
+1. Data\master\master_dataset_audit.csv,0.001
+1. Data\Outputs\chatbot\prediction_cache\prediction_cache_manifest.csv,0.001
+4. Agent\Version 3.0\prompts.py,0.001
+1. Data\Outputs\ml_models\clustering\gmm_cluster_profiles.csv,0.001
+1. Data\Outputs\ml_models\clustering\kmeans_cluster_profiles.csv,0.001
+1. Data\Outputs\chatbot\models\price_model_manifest.csv,0.001
+1. Data\Outputs\ml_models\property_group_segment_audit.csv,0.001
+1. Data\Outputs\ml_models\expanded_city_vs_original_comparison.csv,0.001
+1. Data\Outputs\ml_models\listing_type_model_results.csv,0.001
+1. Data\Outputs\ml_models\clustering\agglomerative_cluster_profiles.csv,0.001
+1. Data\Outputs\ml_models\clustering\kmeans_scores.csv,0.001
+.gitignore,0.0
+1. Data\model_ready\model_ready_audit.csv,0.0
+1. Data\Outputs\ml_models\expanded_model_recommendation_summary.csv,0.0
+1. Data\Outputs\ml_models\random_forest_tuning_results.csv,0.0
+4. Agent\Version 3.0\build_calendar_cache.py,0.0
+4. Agent\Version 3.0\Launch Airbnb Chatbot.bat,0.0
+4. Agent\Version 3.0\requirements.txt,0.0
