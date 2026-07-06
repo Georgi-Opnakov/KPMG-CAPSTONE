@@ -1,0 +1,88 @@
+attribute,feature_group,modelling_value
+price_eur,target,Nightly listing price in EUR.
+log_price_eur,target_transform,Log-transformed target for skewed price modelling.
+neighbourhood_cleansed,location,Main local market effect.
+neighbourhood_group,location,Broader neighbourhood grouping where available.
+latitude,location,Fine-grained geographic signal.
+longitude,location,Fine-grained geographic signal.
+distance_to_center_km,location_engineered,Centrality proxy.
+is_central_5km,location_engineered,Flag for listings within 5 km of city center.
+neighbourhood_listing_count,location_engineered,Local Airbnb market density.
+property_group,property,Simplified property category.
+room_type,property,Major price driver: entire home/private/shared/hotel room.
+accommodates,property,Capacity signal.
+bedrooms,property,Size signal.
+beds,property,Size signal.
+bathrooms,property,Comfort/size signal.
+bathroom_type,property,Shared/private/standard bathroom setup.
+beds_per_guest,property_engineered,Capacity comfort ratio.
+bathrooms_per_guest,property_engineered,Comfort/crowding ratio.
+capacity_bucket,property_engineered,Coarse guest-capacity segment.
+amenities_count,amenities,Overall amenity richness.
+has_wifi,amenities,Convenience/value signal.
+has_kitchen,amenities,Long-stay/family value signal.
+has_air_conditioning,amenities,Comfort signal.
+has_washer,amenities,Long-stay convenience signal.
+has_dedicated_workspace,amenities,Remote-work/business signal.
+has_tv,amenities,Comfort signal.
+has_parking,amenities,Convenience signal.
+has_elevator,amenities,Accessibility/convenience signal.
+has_heating,amenities,Comfort signal.
+has_self_checkin,amenities,Convenience/operational signal.
+host_response_time,host,Host responsiveness category.
+host_response_rate,host,Host responsiveness rate.
+host_acceptance_rate,host,Booking acceptance signal.
+host_is_superhost,host,Trust/reputation signal.
+host_listings_count,host,Host scale signal.
+host_has_profile_pic,host,Trust/completeness signal.
+host_identity_verified,host,Trust signal.
+calculated_host_listings_count,host,Local host portfolio size.
+calculated_host_listings_count_entire_homes,host,Host portfolio composition.
+calculated_host_listings_count_private_rooms,host,Host portfolio composition.
+calculated_host_listings_count_shared_rooms,host,Host portfolio composition.
+host_tenure_days,host_engineered,Host experience signal.
+is_professional_host,host_engineered,Multi-listing/professional host flag.
+host_scale_bucket,host_engineered,Single/small/professional/large host segment.
+instant_bookable,booking,Booking friction/convenience signal.
+minimum_nights_capped,booking,Stay-rule feature with extreme values capped.
+maximum_nights,booking,Stay-rule feature.
+availability_30,availability,Near-term availability.
+availability_60,availability,Short-term availability.
+availability_90,availability,Medium-term availability.
+availability_365,availability,Annual availability.
+low_availability_30,availability_engineered,Near-term scarcity/demand pressure flag.
+high_annual_availability,availability_engineered,High annual availability flag.
+availability_30_ratio,availability_engineered,Normalized 30-day availability.
+availability_365_ratio,availability_engineered,Normalized annual availability.
+calendar_unavailable_rate,calendar,Listing-level unavailable-rate proxy.
+calendar_unavailable_q1,calendar,Quarterly seasonality proxy.
+calendar_unavailable_q2,calendar,Quarterly seasonality proxy.
+calendar_unavailable_q3,calendar,Quarterly seasonality proxy.
+calendar_unavailable_q4,calendar,Quarterly seasonality proxy.
+calendar_unavailable_autumn,calendar,Seasonality proxy.
+calendar_unavailable_spring,calendar,Seasonality proxy.
+calendar_unavailable_summer,calendar,Seasonality proxy.
+calendar_unavailable_winter,calendar,Seasonality proxy.
+calendar_unavailable_weekday,calendar,Weekday unavailable-rate proxy.
+calendar_unavailable_weekend,calendar,Weekend unavailable-rate proxy.
+calendar_weekend_unavailable_gap,calendar_engineered,Weekend minus weekday unavailable-rate gap.
+number_of_reviews,reviews,Total review volume.
+number_of_reviews_ltm,reviews,Review activity in the last 12 months.
+number_of_reviews_l30d,reviews,Very recent review activity.
+number_of_reviews_ly,reviews,Prior-year review activity.
+reviews_last_6m,reviews_engineered,Six-month review momentum from corrected raw reviews.
+reviews_per_month,reviews,Normalized review velocity.
+has_reviews,reviews,Flag for listings with reviews.
+has_rating,reviews_engineered,Flag for listings with rating scores.
+days_since_last_review,reviews,Review recency.
+review_history_days,reviews,Length of listing review history.
+review_recency_bucket,reviews_engineered,No/recent/stale review recency segment.
+reviewed_last_30d,reviews_engineered,Very recent review flag.
+reviewed_last_90d,reviews_engineered,Recent review flag.
+review_scores_rating,ratings,Overall quality score.
+review_scores_accuracy,ratings,Sub-rating score.
+review_scores_cleanliness,ratings,Sub-rating score.
+review_scores_checkin,ratings,Sub-rating score.
+review_scores_communication,ratings,Sub-rating score.
+review_scores_location,ratings,Guest-perceived location score.
+review_scores_value,ratings,Guest-perceived value score.

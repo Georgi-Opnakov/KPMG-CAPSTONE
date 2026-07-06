@@ -1,0 +1,205 @@
+city,attribute,decision,missing_pct,unique_values,reason
+Madrid,listing_id,drop,0.0,17770,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,city,drop,0.0,1,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,price_eur,keep_target,0.0,296,Target or target transform.
+Madrid,log_price_eur,keep_target,0.0,296,Target or target transform.
+Madrid,neighbourhood_cleansed,keep_feature,0.0,128,Usable first-pass predictor.
+Madrid,neighbourhood_group,keep_feature,0.0,21,Usable first-pass predictor.
+Madrid,latitude,keep_feature,0.0,12454,Usable first-pass predictor.
+Madrid,longitude,keep_feature,0.0,11999,Usable first-pass predictor.
+Madrid,distance_to_center_km,keep_feature,0.0,14095,Usable first-pass predictor.
+Madrid,is_central_5km,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,neighbourhood_listing_count,keep_feature,0.0,97,Usable first-pass predictor.
+Madrid,property_type,drop,0.0,60,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,property_group,keep_feature,0.0,6,Usable first-pass predictor.
+Madrid,room_type,keep_feature,0.0,4,Usable first-pass predictor.
+Madrid,accommodates,keep_feature,0.0,16,Usable first-pass predictor.
+Madrid,bedrooms,keep_feature,0.169,13,Usable first-pass predictor.
+Madrid,beds,keep_feature,0.073,20,Usable first-pass predictor.
+Madrid,bathrooms,keep_feature,0.118,18,Usable first-pass predictor.
+Madrid,bathroom_type,keep_feature,0.0,5,Usable first-pass predictor.
+Madrid,amenities_count,keep_feature,0.0,80,Usable first-pass predictor.
+Madrid,has_wifi,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_kitchen,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_air_conditioning,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_washer,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_dedicated_workspace,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_tv,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_parking,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_elevator,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_heating,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,has_self_checkin,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,last_scraped,drop,0.0,2,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,host_since,drop,0.495,3482,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,host_response_time,keep_feature,5.492,4,Usable first-pass predictor.
+Madrid,host_response_rate,keep_feature,5.492,88,Usable first-pass predictor.
+Madrid,host_acceptance_rate,keep_feature,3.118,100,Usable first-pass predictor.
+Madrid,host_is_superhost,keep_feature,2.898,2,Usable first-pass predictor.
+Madrid,host_listings_count,keep_feature,0.495,114,Usable first-pass predictor.
+Madrid,host_total_listings_count,drop,0.495,139,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,host_has_profile_pic,keep_feature,0.495,2,Usable first-pass predictor.
+Madrid,host_identity_verified,keep_feature,0.495,2,Usable first-pass predictor.
+Madrid,minimum_nights,drop,0.0,70,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,maximum_nights,keep_feature,0.0,169,Usable first-pass predictor.
+Madrid,has_availability,drop,0.574,1,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,availability_30,keep_feature,0.0,31,Usable first-pass predictor.
+Madrid,availability_60,keep_feature,0.0,61,Usable first-pass predictor.
+Madrid,availability_90,keep_feature,0.0,91,Usable first-pass predictor.
+Madrid,availability_365,keep_feature,0.0,366,Usable first-pass predictor.
+Madrid,number_of_reviews,keep_feature,0.0,622,Usable first-pass predictor.
+Madrid,number_of_reviews_ltm,keep_feature,0.0,168,Usable first-pass predictor.
+Madrid,number_of_reviews_l30d,keep_feature,0.0,29,Usable first-pass predictor.
+Madrid,number_of_reviews_ly,keep_feature,0.0,163,Usable first-pass predictor.
+Madrid,first_review,drop,15.898,3154,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,last_review,drop,15.898,1029,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,review_scores_rating,keep_feature,15.898,165,Usable first-pass predictor.
+Madrid,review_scores_accuracy,keep_feature,15.898,154,Usable first-pass predictor.
+Madrid,review_scores_cleanliness,keep_feature,15.903,157,Usable first-pass predictor.
+Madrid,review_scores_checkin,keep_feature,15.903,146,Usable first-pass predictor.
+Madrid,review_scores_communication,keep_feature,15.898,144,Usable first-pass predictor.
+Madrid,review_scores_location,keep_feature,15.898,157,Usable first-pass predictor.
+Madrid,review_scores_value,keep_feature,15.898,172,Usable first-pass predictor.
+Madrid,instant_bookable,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,calculated_host_listings_count,keep_feature,0.0,74,Usable first-pass predictor.
+Madrid,calculated_host_listings_count_entire_homes,keep_feature,0.0,67,Usable first-pass predictor.
+Madrid,calculated_host_listings_count_private_rooms,keep_feature,0.0,34,Usable first-pass predictor.
+Madrid,calculated_host_listings_count_shared_rooms,keep_feature,0.0,10,Usable first-pass predictor.
+Madrid,reviews_per_month,keep_feature,15.898,977,Usable first-pass predictor.
+Madrid,host_tenure_days,keep_feature,0.495,3650,Usable first-pass predictor.
+Madrid,days_since_last_review,keep_feature,15.898,1034,Usable first-pass predictor.
+Madrid,review_history_days,keep_feature,15.898,3281,Usable first-pass predictor.
+Madrid,has_reviews,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,minimum_nights_capped,keep_feature,0.0,28,Usable first-pass predictor.
+Madrid,is_professional_host,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,calendar_days,drop,0.0,2,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,calendar_available_days,drop,0.0,366,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,calendar_unavailable_days,drop,0.0,366,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,calendar_unavailable_rate,keep_feature,0.0,373,Usable first-pass predictor.
+Madrid,calendar_unavailable_q1,keep_feature,0.0,91,Usable first-pass predictor.
+Madrid,calendar_unavailable_q2,keep_feature,0.0,92,Usable first-pass predictor.
+Madrid,calendar_unavailable_q3,keep_feature,0.0,99,Usable first-pass predictor.
+Madrid,calendar_unavailable_q4,keep_feature,0.0,93,Usable first-pass predictor.
+Madrid,calendar_unavailable_autumn,keep_feature,0.0,98,Usable first-pass predictor.
+Madrid,calendar_unavailable_spring,keep_feature,0.0,93,Usable first-pass predictor.
+Madrid,calendar_unavailable_summer,keep_feature,0.0,93,Usable first-pass predictor.
+Madrid,calendar_unavailable_winter,keep_feature,0.0,91,Usable first-pass predictor.
+Madrid,calendar_unavailable_weekday,keep_feature,0.0,521,Usable first-pass predictor.
+Madrid,calendar_unavailable_weekend,keep_feature,0.0,209,Usable first-pass predictor.
+Madrid,raw_review_total_reviews,drop,15.898,621,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,raw_reviews_last_6m,drop,15.898,103,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Madrid,beds_per_guest,keep_feature,0.073,67,Usable first-pass predictor.
+Madrid,bathrooms_per_guest,keep_feature,0.118,65,Usable first-pass predictor.
+Madrid,capacity_bucket,keep_feature,0.0,5,Usable first-pass predictor.
+Madrid,host_scale_bucket,keep_feature,0.0,4,Usable first-pass predictor.
+Madrid,reviews_last_6m,keep_feature,0.0,103,Usable first-pass predictor.
+Madrid,has_rating,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,review_recency_bucket,keep_feature,0.0,5,Usable first-pass predictor.
+Madrid,reviewed_last_30d,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,reviewed_last_90d,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,low_availability_30,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,high_annual_availability,keep_feature,0.0,2,Usable first-pass predictor.
+Madrid,availability_30_ratio,keep_feature,0.0,31,Usable first-pass predictor.
+Madrid,availability_365_ratio,keep_feature,0.0,366,Usable first-pass predictor.
+Madrid,calendar_weekend_unavailable_gap,keep_feature,0.0,1741,Usable first-pass predictor.
+Tokyo,listing_id,drop,0.0,23765,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,city,drop,0.0,1,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,price_eur,keep_target,0.0,9866,Target or target transform.
+Tokyo,log_price_eur,keep_target,0.0,9866,Target or target transform.
+Tokyo,neighbourhood_cleansed,keep_feature,0.0,49,Usable first-pass predictor.
+Tokyo,neighbourhood_group,drop,100.0,0,More than 35% missing in this city.
+Tokyo,latitude,keep_feature,0.0,17394,Usable first-pass predictor.
+Tokyo,longitude,keep_feature,0.0,18438,Usable first-pass predictor.
+Tokyo,distance_to_center_km,keep_feature,0.0,19175,Usable first-pass predictor.
+Tokyo,is_central_5km,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,neighbourhood_listing_count,keep_feature,0.0,44,Usable first-pass predictor.
+Tokyo,property_type,drop,0.0,61,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,property_group,keep_feature,0.0,6,Usable first-pass predictor.
+Tokyo,room_type,keep_feature,0.0,4,Usable first-pass predictor.
+Tokyo,accommodates,keep_feature,0.0,16,Usable first-pass predictor.
+Tokyo,bedrooms,keep_feature,0.034,15,Usable first-pass predictor.
+Tokyo,beds,keep_feature,0.017,28,Usable first-pass predictor.
+Tokyo,bathrooms,keep_feature,0.143,20,Usable first-pass predictor.
+Tokyo,bathroom_type,keep_feature,0.0,5,Usable first-pass predictor.
+Tokyo,amenities_count,keep_feature,0.0,78,Usable first-pass predictor.
+Tokyo,has_wifi,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_kitchen,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_air_conditioning,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_washer,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_dedicated_workspace,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_tv,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_parking,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_elevator,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_heating,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,has_self_checkin,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,last_scraped,drop,0.0,2,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,host_since,drop,0.021,2623,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,host_response_time,keep_feature,1.41,4,Usable first-pass predictor.
+Tokyo,host_response_rate,keep_feature,1.41,33,Usable first-pass predictor.
+Tokyo,host_acceptance_rate,keep_feature,0.686,69,Usable first-pass predictor.
+Tokyo,host_is_superhost,keep_feature,7.195,2,Usable first-pass predictor.
+Tokyo,host_listings_count,keep_feature,0.021,109,Usable first-pass predictor.
+Tokyo,host_total_listings_count,drop,0.021,136,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,host_has_profile_pic,keep_feature,0.021,2,Usable first-pass predictor.
+Tokyo,host_identity_verified,keep_feature,0.021,2,Usable first-pass predictor.
+Tokyo,minimum_nights,drop,0.0,31,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,maximum_nights,keep_feature,0.0,114,Usable first-pass predictor.
+Tokyo,has_availability,drop,0.029,1,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,availability_30,keep_feature,0.0,31,Usable first-pass predictor.
+Tokyo,availability_60,keep_feature,0.0,61,Usable first-pass predictor.
+Tokyo,availability_90,keep_feature,0.0,91,Usable first-pass predictor.
+Tokyo,availability_365,keep_feature,0.0,366,Usable first-pass predictor.
+Tokyo,number_of_reviews,keep_feature,0.0,440,Usable first-pass predictor.
+Tokyo,number_of_reviews_ltm,keep_feature,0.0,166,Usable first-pass predictor.
+Tokyo,number_of_reviews_l30d,keep_feature,0.0,28,Usable first-pass predictor.
+Tokyo,number_of_reviews_ly,keep_feature,0.0,153,Usable first-pass predictor.
+Tokyo,first_review,drop,13.057,2969,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,last_review,drop,13.057,705,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,review_scores_rating,keep_feature,13.057,150,Usable first-pass predictor.
+Tokyo,review_scores_accuracy,keep_feature,13.061,131,Usable first-pass predictor.
+Tokyo,review_scores_cleanliness,keep_feature,13.061,170,Usable first-pass predictor.
+Tokyo,review_scores_checkin,keep_feature,13.061,128,Usable first-pass predictor.
+Tokyo,review_scores_communication,keep_feature,13.061,116,Usable first-pass predictor.
+Tokyo,review_scores_location,keep_feature,13.061,136,Usable first-pass predictor.
+Tokyo,review_scores_value,keep_feature,13.061,145,Usable first-pass predictor.
+Tokyo,instant_bookable,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,calculated_host_listings_count,keep_feature,0.0,82,Usable first-pass predictor.
+Tokyo,calculated_host_listings_count_entire_homes,keep_feature,0.0,78,Usable first-pass predictor.
+Tokyo,calculated_host_listings_count_private_rooms,keep_feature,0.0,27,Usable first-pass predictor.
+Tokyo,calculated_host_listings_count_shared_rooms,keep_feature,0.0,11,Usable first-pass predictor.
+Tokyo,reviews_per_month,keep_feature,13.057,760,Usable first-pass predictor.
+Tokyo,host_tenure_days,keep_feature,0.021,2817,Usable first-pass predictor.
+Tokyo,days_since_last_review,keep_feature,13.057,709,Usable first-pass predictor.
+Tokyo,review_history_days,keep_feature,13.057,3079,Usable first-pass predictor.
+Tokyo,has_reviews,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,minimum_nights_capped,keep_feature,0.0,22,Usable first-pass predictor.
+Tokyo,is_professional_host,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,calendar_days,drop,0.0,2,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,calendar_available_days,drop,0.0,366,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,calendar_unavailable_days,drop,0.0,366,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,calendar_unavailable_rate,keep_feature,0.0,377,Usable first-pass predictor.
+Tokyo,calendar_unavailable_q1,keep_feature,0.0,91,Usable first-pass predictor.
+Tokyo,calendar_unavailable_q2,keep_feature,0.0,92,Usable first-pass predictor.
+Tokyo,calendar_unavailable_q3,keep_feature,0.0,95,Usable first-pass predictor.
+Tokyo,calendar_unavailable_q4,keep_feature,0.0,93,Usable first-pass predictor.
+Tokyo,calendar_unavailable_autumn,keep_feature,0.0,103,Usable first-pass predictor.
+Tokyo,calendar_unavailable_spring,keep_feature,0.0,93,Usable first-pass predictor.
+Tokyo,calendar_unavailable_summer,keep_feature,0.0,93,Usable first-pass predictor.
+Tokyo,calendar_unavailable_winter,keep_feature,0.0,91,Usable first-pass predictor.
+Tokyo,calendar_unavailable_weekday,keep_feature,0.0,273,Usable first-pass predictor.
+Tokyo,calendar_unavailable_weekend,keep_feature,0.0,105,Usable first-pass predictor.
+Tokyo,raw_review_total_reviews,drop,13.057,439,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,raw_reviews_last_6m,drop,13.057,107,"Identifier, raw date, redundant, constant, or not model-friendly for first pass."
+Tokyo,beds_per_guest,keep_feature,0.017,135,Usable first-pass predictor.
+Tokyo,bathrooms_per_guest,keep_feature,0.143,91,Usable first-pass predictor.
+Tokyo,capacity_bucket,keep_feature,0.0,5,Usable first-pass predictor.
+Tokyo,host_scale_bucket,keep_feature,0.0,4,Usable first-pass predictor.
+Tokyo,reviews_last_6m,keep_feature,0.0,107,Usable first-pass predictor.
+Tokyo,has_rating,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,review_recency_bucket,keep_feature,0.0,5,Usable first-pass predictor.
+Tokyo,reviewed_last_30d,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,reviewed_last_90d,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,low_availability_30,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,high_annual_availability,keep_feature,0.0,2,Usable first-pass predictor.
+Tokyo,availability_30_ratio,keep_feature,0.0,31,Usable first-pass predictor.
+Tokyo,availability_365_ratio,keep_feature,0.0,366,Usable first-pass predictor.
+Tokyo,calendar_weekend_unavailable_gap,keep_feature,0.0,1791,Usable first-pass predictor.

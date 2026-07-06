@@ -1,0 +1,3 @@
+city,source_file,source_rows,source_columns,model_ready_rows,model_ready_columns,feature_columns,dropped_columns,engineered_features_added,target_median_eur,target_mean_eur
+Madrid,madrid_master_model_dataset.csv,17770,88,17770,87,85,15,14,105.0,114.5985
+Tokyo,tokyo_master_model_dataset.csv,23765,88,23765,86,84,16,14,95.914,109.813
